@@ -12,4 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Include the built-in profile even before the first successful online refresh.
+PRODUCT_PACKAGE_OVERLAYS += vendor/certification/overlay
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/certification/overlay
